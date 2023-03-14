@@ -7,6 +7,8 @@ data "aws_ami" "amazon-linux-2" {
     values = ["ebs"]
   }
 
+
+
   filter {
     name   = "virtualization-type"
     values = ["hvm"]
